@@ -85,7 +85,7 @@ public final class MailboxTestUtil {
      * @throws Exception
      */
     public static void initProvisioning(String zimbraServerDir) throws Exception {
-        String zimbraHome = "/opt/zimbra/";
+        String zimbraHom = "/opt/zimbra/";
         zimbraServerDir = Strings.nullToEmpty(zimbraServerDir);
         System.setProperty("log4j.configuration", "log4j-test.properties");
         // Don't load from /opt/zimbra/conf
