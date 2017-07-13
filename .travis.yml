@@ -1,5 +1,12 @@
 #sudo: required
 
+language: python
+python:
+  - "2.5"
+  - "2.6"
+  - "2.7"
+  - "pypy"
+
 language: java
 
 jdk:
@@ -20,3 +27,6 @@ script:
   - git clone https://github.com/Zimbra/zm-timezones.git
   - cd zm-mailbox
   - ant -Dzimbra.buildinfo.version=1.1.1_GA_1000 test-all
+
+after_script:
+- python html2text.py target/site/surefire-report.html
