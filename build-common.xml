@@ -314,7 +314,7 @@
                     <exclude name="**/Abstract*Test.java"/>
                     <exclude name="**/ZimletUtilTest.java"/>
                     <exclude name="**/RuleManagerWithCustomActionFilterTest.java"/>
-		    <!--<exclude name="**/ExtShareInfoTest.java"/>
+		    <exclude name="**/ExtShareInfoTest.java"/>
                     <exclude name="**/ZimbraAuthTokenTest.java"/>
                     <exclude name="**/DbMailItemTest.java"/>
                     <exclude name="**/DbSearchTest.java"/>
@@ -396,7 +396,7 @@
                     <exclude name="**/store/external/*.java"/>
                     <exclude name="**/FileBlobStoreConsistencyCheckTest.java"/>
                     <exclude name="**/HttpStoreManagerTest.java"/>
-                    <exclude name="**/ZimletUserPropertiesTest.java"/>-->
+                    <exclude name="**/ZimletUserPropertiesTest.java"/>
                 </fileset>
             </batchtest>
           </junit>
